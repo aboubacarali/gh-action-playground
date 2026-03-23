@@ -18,7 +18,7 @@ jobs:
       - name: Installer Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Installer les dépendances
         run: npm ci
@@ -31,4 +31,3 @@ jobs:
 
       - name: Lancer les tests
         run: npm test
-
