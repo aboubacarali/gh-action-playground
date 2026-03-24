@@ -14,7 +14,7 @@ jobs:
           apt-get install -y nodejs npm
 
       - name: Installer dépendances
-        run: npm ci
+        run: npm ci 
 
       - name: Lint
         run: npm run lint
