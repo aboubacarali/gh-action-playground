@@ -6,7 +6,7 @@ on:
 
 jobs:
   quality:
-    runs-on: ubuntu-latest:host
+    runs-on: ubuntu-latest
     steps:
       - name: Installer Node
         run: |
