@@ -28,3 +28,5 @@ jobs:
 
       - name: Tests
         run: npm test
+      - name:
+        run: echo "Terminé!"
