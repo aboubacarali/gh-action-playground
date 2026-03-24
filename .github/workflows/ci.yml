@@ -10,7 +10,7 @@ on:
 jobs:
   quality:
     name: Qualité du code
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Récupérer le code
         uses: actions/checkout@v6
